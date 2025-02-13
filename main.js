@@ -1,6 +1,6 @@
 const DEBUG = false;
-const RESIN_LIMIT = 200;
-const RECHARGE_INTERVAL = 8;    //minutes
+const RESIN_LIMIT = 240;
+const RECHARGE_INTERVAL = 6;    //minutes
 
 // Update HTML
 document.querySelector("#resin").setAttribute("max", RESIN_LIMIT);
